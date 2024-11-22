@@ -1,0 +1,66 @@
+header {
+    flex-direction: row;
+    align-content: flex-end;
+}
+body {
+    background-color: #f4f4f4;
+    font-family: "Klee One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    
+}
+img {
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+}
+a {
+    border-radius: 5px;
+    background-color: #3498db;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    transition: 2s;
+    
+}
+.menu {
+    margin: 0px;
+    background-color: #4476a8; 
+    flex-direction: row;
+    padding: 2%;
+    align-content: center;
+    width: max-content;
+    height: ;
+    padding: 1px;
+}
+nav a:hover {
+    background-color: #1abc9c;
+    border-radius: 5px;
+  }
+
+.button {
+    background-color:#4476a8 ;
+    border-radius: 3px;
+    color: white;
+    margin: 0px;
+    padding: 0.5%;
+} 
+.formulario {
+    background-color: white;
+    margin: 20px;
+    padding: 2%;
+    justify-content: space-around;
+}
+input {
+    border-color
+}
+.tab.active  {
+    background-color: #f4f4f4;
+    margin: 20px;
+    
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS.css">
+    <title>Formulario</title>
+</head>
+<body class="klee-one-regular">
+        <div class="menu">
+            <header>
+        <nav>
+              <a class="tab.active" id="tab1" href="practica_evaluable_1.html">Inicio</a> <br><br>
+              <a class="tab" id="tab2" href="informacion.html">Información</a><br><br>
+              <a class="tab" id="tab3" href="formulario.html">Formulario</a><br><br>
+        </nav>
+      </header>
+    </div>
+    <h2 style="text-align: center;">Formulario</h2> <br> <br><br>
+    <div class="formulario">
+    <form class="tab" novalidate>
+       <div>
+        <label for="nombre">Nombre:</label> <br>
+        <textarea type="text" id="nombre"></textarea> <br> <br>
+       </div>
+       <div>
+        <label for="email">Email:</label> <br>
+        <textarea type="email" id="email"  required minlength="3"></textarea><br> <br>
+       </div>
+       <div>
+        <label for="mensaje">Mensaje:</label> <br>
+        <textarea type="text" id="mensaje"  required placeholder="Escriba su mensaje aquí"></textarea>
+       </div>
+       <br>
+      <div class="">
+        <button class="button" type="submit">Enviar</button>
+      </div>
+    </div>
+
+</form>
+
+</body>
+</html>
